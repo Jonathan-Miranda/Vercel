@@ -1,0 +1,17 @@
+Crear el proyecto con Vite usando PNPM
+1)pnpm create vite
+Colocamos el nombre del proyecto y demas configuraciones
+Instalar las dependencia (pnpm)*
+*Aqui la terminal nos puede dar un error por el bloqueo de scripts
+a)Abrimos powershell como admin
+b)ejecutamos "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
+c)volvemos a poner el comando "pnpm add -D vite"
+2)pnpm add -D vite
+Se instalan las dependencias
+Se puede generar una warning indicando que algunas dependecias no se pueden instalar debido a la restricion de la terminal para ejecutar scripts
+3)ejecutamos "pnpm approve-builds"
+Ejecutamos el servidor del proyecto
+4)pnpm vite
+Instalamos el paquete para hacer el deploy en Vercel
+5)npm** install -g vercel
+**Se usa npm porque en pnpm causa mas conflicto y no afecta el mix de npm y pnpm 
