@@ -15,3 +15,8 @@ Ejecutamos el servidor del proyecto
 Instalamos el paquete para hacer el deploy en Vercel
 5)npm** install -g vercel
 **Se usa npm porque en pnpm causa mas conflicto y no afecta el mix de npm y pnpm 
+6)hacemos login en vercel (ya se por consola, vercel login) o en el navegador
+7)Construimos el proyecto "pnpm run build"
+8)hacemos deploy del proyecto con "vercel"
+9)creamos la configuracion inicial de vercel
+10)Si realizamos alguna modificacion al proyecto ya no es necesario volverlo a construir "run build" ya que vercel lo hace por nosotros y sube los cambios
